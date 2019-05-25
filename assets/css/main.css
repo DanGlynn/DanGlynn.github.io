@@ -2682,7 +2682,7 @@ input, select, textarea {
 			}
 
 /* Poptrox */
-
+/*
 	@-moz-keyframes spin {
 		0% {
 			-moz-transform: rotate(0deg);
@@ -2925,7 +2925,7 @@ input, select, textarea {
 			.poptrox-popup:hover .closer:hover {
 				opacity: 1.0;
 			}
-
+*/
 /* Touch */
 
 	body.is-touch .image.thumb:before {
