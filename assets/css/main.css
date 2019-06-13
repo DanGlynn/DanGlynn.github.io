@@ -2471,14 +2471,14 @@ input, select, textarea {
 			.button.icon:before {
 				margin-right: 0.5em;
 			}
-/*
+
 		input[type="submit"].fit,
 		input[type="reset"].fit,
 		input[type="button"].fit,
 		.button.fit {
 			min-width: 0;
 			width: 100%;
-		}*/
+		}
 
 		input[type="submit"].small,
 		input[type="reset"].small,
