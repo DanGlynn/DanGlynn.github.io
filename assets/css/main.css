@@ -2432,7 +2432,6 @@ input, select, textarea {
 		display: inline-block;
 		font-weight: 400;
 		height: 2.15em;
-		height: calc(2.15em + 6px);
 		line-height: 2.15em;
 		min-width: 5em;
 		padding: 1em 1.5em;
