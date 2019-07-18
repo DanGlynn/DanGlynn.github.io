@@ -2432,12 +2432,12 @@ input, select, textarea {
 		display: inline-block;
 		font-weight: 400;
 		height: 2.15em;
-		line-height: 2.75em;
+		line-height: 1.5em;
 		min-width: 5em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		font-size: .6em;
+		font-size: .9em;
 		
 		
 	}
