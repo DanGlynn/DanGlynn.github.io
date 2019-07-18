@@ -2426,7 +2426,7 @@ input, select, textarea {
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		background-color: #f0f5f5;
 		border-radius: 0.35em;
-		border: solid 3px #efefef;
+		border: solid 3px #75a3a3;
 		color: #787878 !important;
 		cursor: pointer;
 		display: inline-block;
