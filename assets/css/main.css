@@ -2437,7 +2437,8 @@ input, select, textarea {
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
-		font-size: 12px;
+		font-size: 10px;
+		padding: 0 5px 0 5px;
 		
 		
 	}
