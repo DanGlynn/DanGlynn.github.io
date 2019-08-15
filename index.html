@@ -59,11 +59,11 @@
 								<h3>www.InsungBaik.com</h3>
 								<p>Fully responsive site built with using CSS FlexBox, JS, and PHP.</p>
 								<a href="https://www.insungbaik.com" class="button" target="_blank" style="margin-top:10px">View Site</a>
-								<!--<div id="moduleImg" class="button" style="margin-top:10px"><a>Wireframe</a>
+								 <div id="moduleImg" class="button" style="margin-top:10px"><a>Wireframe</a>
 								   <div id="myDropdown" class="image-click">
     									<img src="https://chicagooboelessons.com/COL logo.png"/>
   								    </div>
-								</div>-->
+								</div>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://codepen.io/DanGlynn/full/KjYZaY" target="_blank" class="image fit thumb"><img src="images/thumbs/CShack_Asset.png" alt="" /></a>
@@ -152,5 +152,14 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+			<script>
+    			// Get the button, and when the user clicks on it, execute myFunction
+    			document.getElementById("moduleImg").onclick = function() {myFunction()};
+
+    			/* myFunction toggles between adding and removing the show class, which is used to hide and show the dropdown content */
+    			function myFunction() {
+      			document.getElementById("myDropdown").classList.toggle("show-wireframe");
+    			}
+    			</script>
 	</body>
 </html>
