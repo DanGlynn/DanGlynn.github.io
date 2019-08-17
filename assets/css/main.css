@@ -244,8 +244,15 @@ input, select, textarea {
 	    border-radius: 5px;
 	    cursor: pointer;
 	    transition: 0.3s;
-	    display:inline-block;
+	    display:inherit;
 	    margin:auto;
+	}
+	#myImgContainer {
+	    
+	    cursor: pointer;
+	    transition: 0.3s;
+	    display:inline-block;
+	  
 	}
 	.modal {
 	    display: none; /* Hidden by default */
