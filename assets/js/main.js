@@ -4,21 +4,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-      			/*jScript for modal wireframe image */
-      				var modal = document.getElementById('myModal');
-				var img = document.getElementById('myImg');
-      				var modalImg = document.getElementById("img01");
-      				img.onclick = function(){
-          	
-					modal.style.display = "block";
-          				modalImg.src = this.src;
-          			}
-
-				window.onclick = function(event) {
-					  if (event.target == modal) {
-					    modal.style.display = "none";
-					  }
-				}
+      			
       			
 
 (function($) {
