@@ -66,13 +66,13 @@
 								<h3>www.InsungBaik.com</h3>
 								<p>Fully responsive site built with using CSS FlexBox, JS, and PHP.</p>
 								<a href="https://www.insungbaik.com" class="button" target="_blank" style="margin-top:10px">View Site</a>
-								<!--<div id="myImg">
+								<div id="myImg2">
 								<a class="button" style="margin-top:10px; margin-left:10px">Wireframe</a>
-								   <div id="myModal" class="modal">
+								   <div id="myModal2" class="modal">
 								  	<img src="images/fulls/IBWireFrame1.jpg" style="width:90vw; height:auto; padding-left:10vw;" /> 
-         								<img class="modal-content" id="img01" style="display:none;"/>
+         								<img class="modal-content" id="img02" style="display:none;"/>
          							   </div>
-								</div>-->
+								</div>
 							</article>
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="https://codepen.io/DanGlynn/full/KjYZaY" target="_blank" class="image fit thumb"><img src="images/thumbs/CShack_Asset.png" alt="" /></a>
@@ -176,6 +176,22 @@
 				window.onclick = function(event) {
 					  if (event.target == modal) {
 					    modal.style.display = "none";
+					  }
+				}
+			</script>
+				<script>	
+      				var modal2 = document.getElementById('myModal2');
+				var img2 = document.getElementById('myImg2');
+      				var modalImg2 = document.getElementById("img02");
+      				img2.onclick = function(){
+          	
+					modal2.style.display = "block";
+          				modalImg2.src = this.src;
+          			}
+
+				window.onclick = function(event) {
+					  if (event.target == modal2) {
+					    modal2.style.display = "none";
 					  }
 				}
 			</script>
