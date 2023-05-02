@@ -326,6 +326,24 @@ input, select, textarea {
 	    }
 	}
 	
+/* DANIEL GLYNN Text */
+
+
+	@media only screen and (max-width: 599px) {
+  			.playfair {
+   				 font-family: 'Playfair Display SC', serif; 
+				  text-align: center; 
+				  padding: 0 1em;
+  				}
+			}
+	@media only screen and (min-width: 600px) {
+  			.playfair {
+   				 font-family: 'Playfair Display SC', serif; 
+				  text-align: right; 
+				  padding: 0 0;
+  				}
+			}
+		
 
 /* Container */
 
